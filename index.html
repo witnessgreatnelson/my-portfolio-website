@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nelson Elemi - Aspiring Web Developer in Lagos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ <header>
+  <h1>Nelson Elemi</h1>
+  <img src="profile.jpg" alt="Nelson Elemi" class="profile-photo">
+  <p id="greeting">Welcome to my website!</p>
+  <p>Aspiring Software Developer | Building Websites for Small Businesses in Lagos</p>
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+</header> 
+
+  <main>
+  <section id="about">
+  <h2>About Me</h2>
+  <p>Hi, I am Nelson Elemi, an aspiring Software Developer based in Lagos, Nigeria.</p>
+  <p>I am currently studying Software Development through BYU-Pathway Worldwide (BYU-Idaho), building a strong foundation in web design, programming, and full-stack development. Alongside my studies, I am learning hands-on with freeCodeCamp and building real projects as I learn.</p>
+  <p>I help small businesses, churches, and community projects get online with simple, fast, mobile-friendly websites. My focus is on clean design, clear information, and websites that work well on phones - because that is how most people in Lagos browse.</p>
+  <p>My background in community and health outreach gives me a unique advantage: I understand how to communicate clearly, listen to people's needs, and build solutions that actually help them. I bring that same care into every website I build.</p>
+  <p>Right now, I am focused on mastering HTML, CSS, and JavaScript, and growing into a full-stack developer who can build complete web applications from start to finish.</p>
+  <p><strong>What I do:</strong></p>
+  <ul>
+    <li>Business Websites and Landing Pages</li>
+    <li>Portfolio and Personal Websites</li>
+    <li>Websites for Churches and Community Projects</li>
+    <li>Health Information Pages</li>
+  </ul>
+  <p id="more-text" style="display: none;"><strong>My goal:</strong> To become a professional software developer and use technology to help businesses grow and communities thrive in Nigeria and beyond.</p>
+<button id="more-btn">Show My Goal</button>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <p>Real projects I built while learning. Click to see them live.</p><br>
+
+  <div class="project-card">
+    <h3>🌐 Personal Portfolio Website</h3>
+    <p>My professional portfolio. Built with HTML, CSS and JavaScript. Features animated skill bars, interactive goal button, and responsive design that works on phone and laptop.</p>
+    <span class="tag">HTML</span>
+    <span class="tag">CSS</span>
+    <span class="tag">JavaScript</span><br><br>
+    <a href="https://zippy-florentine-8d27f0.netlify.app" target="_blank" class="btn">View Live →</a>
+  </div>
+
+  <div class="project-card">
+    <h3>🎓 BYU-Pathway Learning Tracker</h3>
+    <p>A simple web page I built to track my progress in PC102 and freeCodeCamp. It shows how I break big goals into small daily lessons.</p>
+    <span class="tag">HTML</span>
+    <span class="tag">CSS</span>
+    <span class="tag">Planning</span><br><br>
+    <a href="#contact" class="btn">Ask Me About It →</a>
+  </div>
+</section>
+<section id="skills">
+  <h2>My Skills</h2>
+  <p>I am building these skills through BYU-Pathway and hands-on projects:</p><br>
+
+  <div class="skill">
+    <span>HTML - 85%</span>
+    <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>CSS - 75%</span>
+    <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>JavaScript - 40%</span>
+    <div class="skill-bar"><div class="skill-fill" data-width="40%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Git & GitHub - 30%</span>
+    <div class="skill-bar"><div class="skill-fill" data-width="30%"></div></div>
+  </div>
+
+  <p style="margin-top:15px;"><strong>Also:</strong> Responsive Design • Problem Solving • Community Health Outreach</p>
+</section>
+   <section id="contact">
+  <h2>Contact Me</h2>
+  <p>Are you hiring, or do you have a project? Send me a message. I reply within 24 hours.</p><br>
+
+  <form id="contact-form">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" placeholder="e.g. Mrs. Johnson" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" placeholder="e.g. johnson@company.com" required><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" rows="4" placeholder="Tell me about your project or job..." required></textarea><br><br>
+
+    <button type="submit" class="btn">Send Message</button>
+    <p id="form-msg" style="margin-top:10px; font-weight:bold;"></p>
+  </form>
+
+  <hr style="margin:25px 0;">
+
+  <p>Email: witnessgreatnelson@gmail.com</p>
+  <p>Lagos, Nigeria</p>
+  <a class="whatsapp-btn" href="https://wa.me/2348066227211" target="_blank">Chat on WhatsApp</a>
+</section>
+  </main>
+
+  <footer>
+<p>© <span id="year">2026</span> Nelson Elemi - Lagos, Nigeria</p>
+ </footer>
+  <script src="script.js"></script>
+</body>
+</html>
